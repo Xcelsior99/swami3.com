@@ -32,6 +32,16 @@
 #browsehead {
   font-size: 27px;
 }
+@media (min-width: 851px) {
+  #frontPic {
+    width: 60vw;
+  }
+}
+@media (max-width: 850px) {
+  #frontPic {
+    width: 90%;
+  }
+}
 #browsecontent a {
   padding: 10px 10px 10px 10px;
   border: 3px solid;
@@ -180,7 +190,7 @@
 }
 @media (max-width: 850px) {
   .song {
-    width: 400px;
+    width: 80%;
   }
 }
 /* Change color of dropdown links on hover */
