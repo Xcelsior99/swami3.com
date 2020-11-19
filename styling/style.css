@@ -193,6 +193,18 @@
     width: 80%;
   }
 }
+@media (min-width: 851px) {
+  #recital1 {
+    width: 70%;
+    height: 70%;
+  }
+}
+@media (max-width: 850px) {
+  #recital1 {
+    width: 80%;
+    height: 50%;
+  }
+}
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
