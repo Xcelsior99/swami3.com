@@ -18,10 +18,13 @@
   width: 100%;
 }
 .pagehead {
+  font-size: 27px;
+}
+.pagehead * {
   margin-top: 75px;
 }
 .ind-song-head {
-  font-size: 30px;
+  font-size: 25px;
 }
 .abouthead {
   font-size: 30px;
@@ -130,9 +133,6 @@
   .profilepicdiv img {
     width: 90%;
   }
-}
-.profile-head {
-  font-size: 25px;
 }
 .profiles {
   display: flex;
