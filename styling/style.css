@@ -196,13 +196,13 @@
 @media (min-width: 851px) {
   #recital1 {
     width: 70%;
-    height: 70%;
+    height: 70vh;
   }
 }
 @media (max-width: 850px) {
   #recital1 {
     width: 80%;
-    height: 50%;
+    height: 50vh;
   }
 }
 /* Change color of dropdown links on hover */
