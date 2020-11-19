@@ -193,6 +193,16 @@
     width: 80%;
   }
 }
+@media (min-width: 851px) {
+  #firstvideo {
+    width: 60vw;
+  }
+}
+@media (max-width: 850px) {
+  #firstvideo {
+    width: 85%;
+  }
+}
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ddd;
