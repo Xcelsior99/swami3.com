@@ -5,58 +5,63 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>The Swami 3 – Concerts</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" type="text/css" href="styling/style.css" />
+
 	<style>
-		body {
-			text-align: center;
+		#headmain {
+			font-size: 35px;
 		}
 
-		#navigation {
-			background-color: aquamarine;
-			font-size: 3.5vh;
+		#firstvideo {
+			width: 60vw;
+			height: 70vh;
 		}
 
-		#head {
-			font-size: 5vh;
-		}
-
-		.nav {
-			font: bold 2vh Arial;
-			text-decoration: none;
-			background-color: #EEEEEE;
-			color: #333333;
-			padding: 0.5vh 2.5vh 0.5vh 2.5vh;
-			border-top: 0.3vh solid #CCCCCC;
-			border-right: 0.3vh solid #333333;
-			border-bottom: 0.3vh solid #333333;
-			border-left: 0.3vh solid #CCCCCC;
+		#firsthead {
+			font-size: 21px;
 		}
 	</style>
 </head>
 
-<body>
+<body class="body">
 	<div id="app">
-		<div id="navigation">
-			<a href="0home.html" class="nav">Home</a>
-
-			<a href="1concerts.html" class="nav">Concerts</a>
-
-			<a href="2rohan.html" class="nav">Rohan</a>
-
-			<a href="3shaan.html" class="nav">Shaan</a>
-
-			<a href="4noah.html" class="nav">Noah</a>
-
-			<a href="5phil.html" class="nav">Phil (teacher)</a>
+		<div class="dropdown">
+			<button class="dropbtn">Browse</button>
+			<div class="dropdown-content">
+				<a href="index.html" class="dropdown-element">Home</a>
+				<a href="1concerts.html" class="dropdown-element">Concerts</a>
+				<a href="2songs.html" class="dropdown-element">Songs</a>
+				<a href="3rohan.html" class="dropdown-element">Rohan</a>
+				<a href="4shaan.html" class="dropdown-element">Shaan</a>
+				<a href="5noah.html" class="dropdown-element">Noah</a>
+				<a href="6phil.html" class="dropdown-element">Teacher Phil Surtees</a>
+				<a href="7origin.html" class="dropdown-element">Origin</a>
+			</div>
 		</div>
 
-		<h2 id="head">Concerts</h2>
+		<div class="navbar">
+			<a href="index.html" class="navbar-content">Home</a>
+			<a href="1concerts.html" class="navbar-content">Concerts</a>
+			<a href="2songs.html" class="navbar-content">Songs</a>
+			<a href="3rohan.html" class="navbar-content">Rohan</a>
+			<a href="4shaan.html" class="navbar-content">Shaan</a>
+			<a href="5noah.html" class="navbar-content">Noah</a>
+			<a href="6phil.html" class="navbar-content">Teacher Phil Surtees</a>
+			<a href="7origin.html" class="navbar-content">Origin</a>
+		</div>
 
-		<p>2018 June Recital</p>
+		<div id="headmain" class="pagehead">
+			<h2>Concerts</h2>
+		</div>
+
+		<div id="firsthead">
+			<h4>2018 June Recital</h4>
+		</div>
 
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/CctDiPrtwbI" frameborder="0"
 			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-			allowfullscreen></iframe>
+			allowfullscreen id="firstvideo"></iframe>
 	</div>
 </body>
 

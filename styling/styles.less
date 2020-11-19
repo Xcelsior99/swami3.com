@@ -1,0 +1,209 @@
+@mobile: ~"(max-width: 850px)";
+@desktop: ~"(min-width: 851px)";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.navbar {
+    background-color: aqua;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.pagehead {
+    margin-top: 75px;
+}
+
+.ind-song-head {
+    font-size: 30px;
+}
+
+.abouthead {
+    font-size: 30px;
+}
+
+#browsehead {
+    font-size: 27px;
+}
+
+#browsecontent a {
+    padding: 10px 10px 10px 10px;
+    border: 3px solid;
+    border-radius: 7px;
+    background-color: transparent;
+    font-size: 20px;
+    color: gold;
+    margin: 5px;
+    @media @mobile {
+        width: 90%;
+    }
+}
+#browsecontent a:hover {
+    background-color: gold;
+    color: darkred;
+    border: 3px solid;
+}
+#browsecontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media @mobile {
+        flex-direction: column;
+    }
+}
+
+.about {
+    font-size: 21px;
+}
+
+.navbar-content {
+    text-decoration: none;
+    background-color: none;
+    color: black;
+    padding: 2vh 2vw 2vh 2vw;
+    font-size: 18px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: aqua;
+    color: black;
+    padding: 16px 40px 16px 40px;
+    width: 100%;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+    
+.sec {
+	display: flex;
+	justify-content: center;
+    font-size: 20px;
+    @media @mobile {
+        flex-direction: column;
+    }
+}
+
+.profilepic {
+    @media @desktop {
+        width: auto;
+        height: auto;
+        width: 50%;
+    }
+    @media @mobile {
+        width: 80%;
+    }
+}
+
+.profilepicdiv {
+    @media @mobile {
+        width: 100%;
+        img {
+            width: 90%;
+        }
+    }
+}
+
+.profile-head {
+    font-size: 25px;
+}
+
+.profiles {
+    display: flex;
+    margin: 10px;
+    @media @mobile {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.about {
+    @media @desktop {margin: 15px;}
+    @media @mobile {margin: 10px;}
+    font-size: 21px;
+}
+
+#origin {
+    @media @desktop {margin: 30px;}
+    @media @mobile {margin: 10px;}
+    font-size: 21px;
+}
+
+.song {
+    height: 40vh;
+    @media @desktop {
+        width: 40vw;
+    }
+    @media @mobile {
+        width: 400px;
+    }
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd; box-shadow: 6px 0px 6px 0px grey;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: rgb(0, 195, 255);}
+
+.navbar a:hover {background-color: rgb(0, 195, 255);}
+
+@media @desktop {
+    .dropdown {
+        display: none;
+    }
+}
+
+@media @mobile {
+    .navbar {
+        display: none;
+    }
+}
+
+.songDiv {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.dropbtn {
+    font-family: 'Roboto', sans-serif;
+}
