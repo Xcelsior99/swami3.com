@@ -20,8 +20,15 @@
 .pagehead {
   font-size: 27px;
 }
-.pagehead * {
-  margin-top: 75px;
+@media (min-width: 851px) {
+  .pagehead * {
+    margin-top: 75px;
+  }
+}
+@media (max-width: 850px) {
+  .pagehead * {
+    margin-top: none;
+  }
 }
 .ind-song-head {
   font-size: 25px;
