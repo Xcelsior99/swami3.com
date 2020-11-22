@@ -132,15 +132,11 @@
   }
 }
 @media (min-width: 851px) {
-  .profilepic {
-    width: auto;
-    height: auto;
+  .profilepicdiv {
     width: 50%;
   }
-}
-@media (max-width: 850px) {
-  .profilepic {
-    width: 80%;
+  .profilepicdiv img {
+    width: 50vw;
   }
 }
 @media (max-width: 850px) {
@@ -163,6 +159,7 @@
 }
 .about {
   font-size: 21px;
+  margin-top: 0px;
 }
 @media (min-width: 851px) {
   .about {
@@ -173,6 +170,9 @@
   .about {
     margin: 10px;
   }
+}
+.about p {
+  margin-top: 0px;
 }
 #origin {
   font-size: 21px;

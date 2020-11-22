@@ -132,18 +132,13 @@
     }
 }
 
-.profilepic {
-    @media @desktop {
-        width: auto;
-        height: auto;
-        width: 50%;
-    }
-    @media @mobile {
-        width: 80%;
-    }
-}
-
 .profilepicdiv {
+    @media @desktop {
+        width: 50%;
+        img {
+            width: 50vw;
+        }
+    }
     @media @mobile {
         width: 100%;
         img {
@@ -165,6 +160,10 @@
     @media @desktop {margin: 15px;}
     @media @mobile {margin: 10px;}
     font-size: 21px;
+    p {
+        margin-top: 0px;
+    }
+    margin-top: 0px;
 }
 
 #origin {
