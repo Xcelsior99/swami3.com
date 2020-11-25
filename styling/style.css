@@ -201,13 +201,13 @@
   }
 }
 @media (min-width: 851px) {
-  #recital1 {
+  .recital {
     width: 70%;
     height: 70vh;
   }
 }
 @media (max-width: 850px) {
-  #recital1 {
+  .recital {
     width: 80%;
     height: 50vh;
   }
