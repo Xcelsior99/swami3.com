@@ -163,7 +163,8 @@
 }
 @media (min-width: 851px) {
   .about {
-    margin: 15px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 @media (max-width: 850px) {
