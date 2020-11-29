@@ -160,8 +160,8 @@
 }
 @media (min-width: 851px) {
   .about {
-    margin-left: 125px;
-    margin-right: 125px;
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 @media (max-width: 850px) {
@@ -171,6 +171,20 @@
 }
 .about p {
   margin-top: 0px;
+}
+#front-about {
+  font-size: 21px;
+}
+@media (min-width: 851px) {
+  #front-about {
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
+@media (max-width: 850px) {
+  #front-about {
+    margin: 10px;
+  }
 }
 #origin {
   font-size: 21px;
