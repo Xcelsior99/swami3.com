@@ -17,6 +17,11 @@
   position: fixed;
   width: 100%;
 }
+@media (max-width: 850px) {
+  .navbar {
+    display: none;
+  }
+}
 .pagehead {
   font-size: 27px;
 }
@@ -242,11 +247,6 @@
 }
 @media (min-width: 851px) {
   .dropdown {
-    display: none;
-  }
-}
-@media (max-width: 850px) {
-  .navbar {
     display: none;
   }
 }

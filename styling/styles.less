@@ -13,6 +13,9 @@
     left: 0;
     position: fixed;
     width: 100%;
+    @media @mobile {
+        display: none;
+    }
 }
 
 .pagehead {
@@ -207,12 +210,6 @@
 
 @media @desktop {
     .dropdown {
-        display: none;
-    }
-}
-
-@media @mobile {
-    .navbar {
         display: none;
     }
 }
