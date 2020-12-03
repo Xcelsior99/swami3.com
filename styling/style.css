@@ -22,6 +22,18 @@
     display: none;
   }
 }
+.navbar a:hover {
+  background-color: #00c3ff;
+}
+.navbar-content {
+  text-decoration: none;
+  background-color: none;
+  color: black;
+  padding: 2vh 2vw 2vh 2vw;
+  font-size: 18px;
+  margin-bottom: auto;
+  margin-top: auto;
+}
 .pagehead {
   font-size: 27px;
 }
@@ -82,15 +94,6 @@
   #browsecontent {
     flex-direction: column;
   }
-}
-.navbar-content {
-  text-decoration: none;
-  background-color: none;
-  color: black;
-  padding: 2vh 2vw 2vh 2vw;
-  font-size: 18px;
-  margin-bottom: auto;
-  margin-top: auto;
 }
 /* Dropdown Button */
 .dropbtn {
@@ -240,9 +243,6 @@
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: #00c3ff;
-}
-.navbar a:hover {
   background-color: #00c3ff;
 }
 @media (min-width: 851px) {
