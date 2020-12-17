@@ -27,13 +27,38 @@
 		#indicator {
 			background-color: rgb(0, 195, 255);
 		}
+
+		.buttonlink {
+			margin-bottom: 50px;
+		}
+
+		#ind-prevs {
+			border: 2px solid black;
+			width: 90vw;
+			margin: 0px auto;
+		}
+
+		.ind-prev {
+			width: 33%;
+			float: left;
+			padding-bottom: 20px;
+		}
+
+		.ind-prev img {
+			width: 90%;
+		}
+
+		.ind-prev h4 {
+			margin: 5px 5px 20px 5px;
+			text-align: left;
+		}
 	</style>
 </head>
 
 <body>
 	<div id="app">
 		<div class="dropdown">
-			<button class="dropbtn">Browse</button>
+			<button class="dropbtn">Menu</button>
 			<div class="dropdown-content">
 				<a href="index.html" class="dropdown-element">Home</a>
 				<a href="1concerts.html" class="dropdown-element">Concerts</a>
@@ -80,13 +105,41 @@
 				<h3>Browse Content</h3>
 			</div>
 			<div id="browsecontent">
-				<a href="1concerts.html" class="navbar-content">Concerts</a>
-				<a href="2songs.html" class="navbar-content">Songs</a>
-				<a href="3rohan.html" class="navbar-content">Rohan</a>
-				<a href="4shaan.html" class="navbar-content">Shaan</a>
-				<a href="5noah.html" class="navbar-content">Noah</a>
-				<a href="6phil.html" class="navbar-content">Teacher Phil Surtees</a>
-				<a href="7origin.html" class="navbar-content">Origin</a>
+				<a href="1concerts.html" class="buttonlink">Concerts</a>
+				<a href="2songs.html" class="buttonlink">Songs</a>
+				<a href="3rohan.html" class="buttonlink">Rohan</a>
+				<a href="4shaan.html" class="buttonlink">Shaan</a>
+				<a href="5noah.html" class="buttonlink">Noah</a>
+				<a href="6phil.html" class="buttonlink">Teacher Phil Surtees</a>
+				<a href="7origin.html" class="buttonlink">Origin</a>
+			</div>
+		</div>
+
+		<br>
+
+		<div id="ind-prevs">
+			<div class="ind-prev">
+				<h2>Rohan</h2>
+				<img src="pics/rohan.png">
+				<h4>Rohan is the Swami 3's pianist. He keeps the rhythm going with chords and some melody, as well as
+					acting as a substitute for that missing bassist. Everyone enjoys listening to him play.</h4>
+				<a href="3rohan.html" class="buttonlink">Learn More</a>
+			</div>
+
+			<div class="ind-prev" style="border-left: 2px solid black; border-right: 2px solid black;">
+				<h2>Shaan</h2>
+				<img src="pics/shaan.png">
+				<h4>Shaan is the star of the Swami 3. Shining in drums and vocals, he not only plays by far the most
+					important (and difficult) role, but also makes everyone smile the most when playing.</h4>
+				<a href="4shaan.html" class="buttonlink">Learn More</a>
+			</div>
+
+			<div id="noah" class="ind-prev">
+				<h2>Noah</h2>
+				<img src="pics/noah.png">
+				<h4>Noah is the Swami 3's guitarist. He jams with those chords and the occasional solo. Nobody is ever
+					unhappy watching Noah play with that big, wide grin on his face.</h4>
+				<a href="5noah.html" class="buttonlink" style="margin: 100px;">Learn More</a>
 			</div>
 		</div>
 	</div>

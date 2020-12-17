@@ -53,9 +53,6 @@
 .abouthead {
   font-size: 30px;
 }
-#browsehead {
-  font-size: 27px;
-}
 @media (min-width: 851px) {
   #frontPic {
     width: 60vw;
@@ -66,24 +63,27 @@
     width: 90%;
   }
 }
-#browsecontent a {
+#browsehead {
+  font-size: 27px;
+}
+.buttonlink {
   padding: 10px 10px 10px 10px;
   border: 3px solid;
   border-radius: 7px;
   background-color: transparent;
   font-size: 20px;
+  text-decoration: none;
   color: gold;
-  margin: 5px;
 }
 @media (max-width: 850px) {
-  #browsecontent a {
+  .buttonlink {
     width: 90%;
   }
 }
-#browsecontent a:hover {
+.buttonlink:hover {
   background-color: gold;
   color: darkred;
-  border: 3px solid;
+  border: 3px solid gold;
 }
 #browsecontent {
   display: flex;
@@ -93,6 +93,19 @@
 @media (max-width: 850px) {
   #browsecontent {
     flex-direction: column;
+  }
+}
+#browsecontent a {
+  margin: 5px;
+}
+@media (max-width: 850px) {
+  #ind-prevs {
+    display: none;
+  }
+}
+@media (min-width: 851px) {
+  #ind-prevs {
+    display: flex;
   }
 }
 /* Dropdown Button */
