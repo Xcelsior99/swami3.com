@@ -74,6 +74,7 @@
   font-size: 20px;
   text-decoration: none;
   color: gold;
+  transition: all 0.5s;
 }
 @media (max-width: 850px) {
   .buttonlink {
