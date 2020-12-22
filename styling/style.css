@@ -5,6 +5,9 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
+body {
+  padding-bottom: 10vh;
+}
 .navbar {
   text-decoration: none;
   background-color: cyan;
