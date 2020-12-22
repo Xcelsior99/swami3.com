@@ -24,9 +24,9 @@
   }
 }
 .navbar a:hover {
-  color: darkgoldenrod;
+  color: darkorange;
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 1.3vh;
 }
 .navbar-content {
   text-decoration: none;
@@ -36,6 +36,11 @@
   font-size: 18px;
   margin-bottom: auto;
   margin-top: auto;
+}
+.indicator {
+  color: darkorange;
+  text-decoration: underline;
+  text-underline-offset: 1.3vh;
 }
 .pagehead {
   font-size: 27px;
