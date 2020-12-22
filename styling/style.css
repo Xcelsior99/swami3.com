@@ -6,7 +6,8 @@
   src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
 .navbar {
-  background-color: aqua;
+  text-decoration: none;
+  background-color: cyan;
   vertical-align: middle;
   display: flex;
   flex-direction: row;
@@ -23,7 +24,9 @@
   }
 }
 .navbar a:hover {
-  background-color: #00c3ff;
+  color: darkgoldenrod;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 .navbar-content {
   text-decoration: none;
@@ -74,7 +77,7 @@
   font-size: 20px;
   text-decoration: none;
   color: gold;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 @media (max-width: 850px) {
   .buttonlink {
