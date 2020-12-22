@@ -23,10 +23,12 @@
     display: none;
   }
 }
-.navbar a:hover {
+.navbar a:hover,
+.navbar .indicator {
   color: darkorange;
   text-decoration: underline;
   text-underline-offset: 1.3vh;
+  text-decoration-thickness: 2px;
 }
 .navbar-content {
   text-decoration: none;
@@ -36,11 +38,6 @@
   font-size: 18px;
   margin-bottom: auto;
   margin-top: auto;
-}
-.indicator {
-  color: darkorange;
-  text-decoration: underline;
-  text-underline-offset: 1.3vh;
 }
 .pagehead {
   font-size: 27px;
