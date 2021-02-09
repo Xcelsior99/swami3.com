@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>{{ .Site.Title }}</title>
+
+	<link rel="stylesheet" type="text/css" href="/style.css" />
+
+	<link rel="shortcut icon" href="/pics/logo.png" type="image/x-icon">
+</head>
+
+<body>
+	<div id="app">
+		<div class="navbar">
+			{{ $currentPage := . }} 
+			{{ range .Site.Menus.main }} 
+			<a href="{{.URL}}" class="navbar-content">{{ .Pre }}
+			{{ .Name | title }}
+			</a>
+			{{ end }}
+		</div>
+
+		<div id="dropdown">
+			{{ $currentPage := . }}
+			<button id="dropbtn">Menu</button>
+			<div id="dropdown-content">
+				{{ range .Site.Menus.main }}
+				<a href="{{.URL}}" class="dropdown-element">{{ .Pre }}
+				{{ .Name | title }}
+				</a>
+				{{ end }}
+			</div>
+		</div>
+        
+		{{ partial "content.html" . }}
+		
+		<script>
+			var dropbtn = document.getElementById('dropbtn')
+			var content = document.getElementById('dropdown-content')
+			var hidden = true;
+
+			dropbtn.addEventListener('click', function() {
+				if (hidden) {
+					content.style.display = 'block'
+					dropbtn.style.backgroundColor = 'rgb(0, 195, 255)'
+				} else {
+					content.style.display = 'none'
+					dropbtn.style.backgroundColor = 'aqua'
+				}
+				hidden = !hidden
+			})
+		</script>
+	</div>
+</body>
+
+</html>
