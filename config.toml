@@ -1,0 +1,11 @@
+baseURL = "http://swami3.com/"
+languageCode = "en-us"
+title = "The Swami 3"
+disableKinds = ["taxonomy", "term"]
+[markup.goldmark.renderer] 
+unsafe = true
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
