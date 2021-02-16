@@ -16,7 +16,7 @@
 		<div class="navbar">
 			{{ $currentPage := . }} 
 			{{ range .Site.Menus.main }} 
-			<a href="{{.URL}}" class="navbar-content">{{ .Pre }}
+			<a href="{{.URL}}" class='navbar-content {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}'>{{ .Pre }}
 			{{ .Name | title }}
 			</a>
 			{{ end }}
@@ -27,7 +27,7 @@
 			<button id="dropbtn">Menu</button>
 			<div id="dropdown-content">
 				{{ range .Site.Menus.main }}
-				<a href="{{.URL}}" class="dropdown-element">{{ .Pre }}
+				<a href="{{.URL}}" class='dropdown-element {{ if $currentPage.IsMenuCurrent "main" . }} active{{ end }}'>{{ .Pre }}
 				{{ .Name | title }}
 				</a>
 				{{ end }}
