@@ -44,6 +44,9 @@
 }
 /* ---------- */
 /* DROPDOWN MENU */
+.dropbtn {
+  font-family: 'Roboto', sans-serif;
+}
 #dropdown {
   position: relative;
   display: inline-block;
@@ -217,19 +220,6 @@
     margin: 10px;
   }
 }
-#origin {
-  font-size: 21px;
-}
-@media (min-width: 851px) {
-  #origin {
-    margin: 30px;
-  }
-}
-@media (max-width: 850px) {
-  #origin {
-    margin: 10px;
-  }
-}
 .song {
   height: 40vh;
 }
@@ -265,6 +255,12 @@ body {
   text-align: center;
   padding-bottom: 10vh;
 }
-.dropbtn {
-  font-family: 'Roboto', sans-serif;
+#origin-container {
+  text-align: left;
+  padding: 0px 15vw 0px 15vw;
+}
+@media (max-width: 850px) {
+  #origin-container {
+    padding: 0px 5vw 0px 5vw;
+  }
 }
