@@ -264,10 +264,16 @@ body {
     padding: 0px 5vw 0px 5vw;
   }
 }
+.input-field {
+  width: 50%;
+}
 @media (max-width: 850px) {
   .input-field {
     width: 80%;
   }
+}
+.input-field-special {
+  width: 20%;
 }
 @media (max-width: 850px) {
   .input-field-special {
