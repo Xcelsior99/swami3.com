@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v20/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
 /* NAVBAR MENU */
 .navbar {
@@ -262,5 +262,15 @@ body {
 @media (max-width: 850px) {
   #origin-container {
     padding: 0px 5vw 0px 5vw;
+  }
+}
+@media (max-width: 850px) {
+  .input-field {
+    width: 80%;
+  }
+}
+@media (max-width: 850px) {
+  .input-field-special {
+    width: 35%;
   }
 }
