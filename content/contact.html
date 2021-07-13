@@ -1,0 +1,90 @@
+---
+title: "Contact Us"
+menu:
+    main:
+        weight: 80
+        name: "Contact"
+date: 2020-12-10T19:42:04+08:00
+---
+
+<style>
+    body {
+        background-color: darkred;
+    }
+
+    #form {
+        border: 5px solid gold;
+        margin: 0px 10vw 0px 10vw;
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+    }
+
+    .form-row {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .input-field {
+        display: inline-block;
+        text-align: left;
+        margin: 0px 5% 0px 5%;
+        width: 50%;
+    }
+    .input-field-special {
+        width: 20%
+    }
+
+    .form-input {
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        padding: 7px;
+        background-color: lightgray;
+        font-size: 17px;
+        font-family: 'Roboto', sans-serif;
+        width: 100%;
+    }
+    .form-input:hover {
+        background-color: darkgray;
+        cursor: pointer;
+    }
+</style>
+
+<br>
+
+<div id="form">
+    <div class="form-row">
+        <div class="input-field input-field-special">
+            <p>First Name:</p>
+            <input type="text" id="first-name-input" class="form-input">
+        </div>
+        <div class="input-field input-field-special">
+            <p>Last Name:</p>
+            <input type="text" id="last-name-input" class="form-input">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="input-field">
+            <p>Email Address:</p>
+            <input type="text" id="email-input" class="form-input">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="input-field">
+            <p>Subject:</p>
+            <input type="text" id="subject-input" class="form-input">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="input-field">
+            <p>Message</p>
+            <textarea name="" id="message-input" cols="30" rows="10" class="form-input" style="resize: vertical;"></textarea>
+        </div>
+    </div>
+    <br>
+    <a href="" class="buttonlink">Submit</a>
+    <br>
+</div>
+
+<script>
+
+</script>
