@@ -48,37 +48,37 @@ date: 2020-12-10T19:42:04+08:00
 <br>
 
 <div id="form">
-    <form action="mailto:momager@swami3.com">
+    <form action="mailto:momager@swami3.com" method="GET" target="_blank">
         <div class="form-row">
             <div class="input-field input-field-special">
                 <p>First Name:</p>
-                <input type="text" id="first-name-input" class="form-input">
+                <input type="text" name="firstname" id="firstname" class="form-input">
             </div>
             <div class="input-field input-field-special">
                 <p>Last Name:</p>
-                <input type="text" id="last-name-input" class="form-input">
+                <input type="text" name="lastname" id="lastname" class="form-input">
             </div>
         </div>
         <div class="form-row">
             <div class="input-field">
                 <p>Email Address:</p>
-                <input type="text" id="email-input" class="form-input">
+                <input type="text" name="email" id="email" class="form-input">
             </div>
         </div>
         <div class="form-row">
             <div class="input-field">
                 <p>Subject:</p>
-                <input type="text" id="subject-input" class="form-input">
+                <input type="text" name="subject" id="subject" class="form-input">
             </div>
         </div>
         <div class="form-row">
             <div class="input-field">
                 <p>Message</p>
-                <textarea name="" id="message-input" cols="30" rows="10" class="form-input" style="resize: vertical;"></textarea>
+                <textarea id="message" name="body" cols="30" rows="10" class="form-input" style="resize: vertical;"></textarea>
             </div>
         </div>
         <br>
-        <input type="submit" value="Create Email" class="buttonlink" style="cursor: pointer;">
+        <input type="submit" value="Create Email" target="_blank" class="buttonlink" style="cursor: pointer;">
         <br>
     </form>
 </div>
