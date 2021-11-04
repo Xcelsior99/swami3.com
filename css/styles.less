@@ -135,10 +135,25 @@
     border: 3px solid gold;
 }
 
-#ind-prevs {
+#ind-prevs-mobile {
     display: flex;
+    flex-direction: column;
     @media @mobile {
-        flex-direction: column;
+        display: none;
+    }
+}
+#ind-prevs-desktop {
+    width: 90vw;
+    margin: 0px auto;
+    @media @mobile {
+        display: none;
+    }
+}
+.ind-prev {
+    width: 30vw;
+    float: left;
+    @media @mobile {
+        width: 100%;
     }
 }
 
