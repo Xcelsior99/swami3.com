@@ -146,7 +146,7 @@
   display: flex;
   flex-direction: column;
 }
-@media (max-width: 850px) {
+@media (min-width: 851px) {
   #ind-prevs-mobile {
     display: none;
   }
@@ -166,7 +166,7 @@
 }
 @media (max-width: 850px) {
   .ind-prev {
-    width: 90%;
+    width: 100%;
   }
 }
 .sec {
