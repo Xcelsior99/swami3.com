@@ -142,12 +142,31 @@
   color: darkred;
   border: 3px solid gold;
 }
-#ind-prevs {
+#ind-prevs-mobile {
   display: flex;
+  flex-direction: column;
 }
 @media (max-width: 850px) {
-  #ind-prevs {
-    flex-direction: column;
+  #ind-prevs-mobile {
+    display: none;
+  }
+}
+#ind-prevs-desktop {
+  width: 90vw;
+  margin: 0px auto;
+}
+@media (max-width: 850px) {
+  #ind-prevs-desktop {
+    display: none;
+  }
+}
+.ind-prev {
+  width: 30vw;
+  float: left;
+}
+@media (max-width: 850px) {
+  .ind-prev {
+    width: 100%;
   }
 }
 .sec {
