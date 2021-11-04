@@ -3,7 +3,7 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
+  src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Me5Q.ttf) format('truetype');
 }
 /* NAVBAR MENU */
 .navbar {
@@ -113,18 +113,18 @@
     width: 90%;
   }
 }
-#browsecontent {
+.browsecontent {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 @media (max-width: 850px) {
-  #browsecontent {
+  .browsecontent {
     flex-direction: column;
   }
 }
 .buttonlink {
-  padding: 10px 10px 10px 10px;
+  padding: 10px;
   border: 3px solid;
   border-radius: 7px;
   background-color: transparent;
@@ -142,14 +142,12 @@
   color: darkred;
   border: 3px solid gold;
 }
+#ind-prevs {
+  display: flex;
+}
 @media (max-width: 850px) {
   #ind-prevs {
-    display: none;
-  }
-}
-@media (min-width: 851px) {
-  #ind-prevs {
-    display: flex;
+    flex-direction: column;
   }
 }
 .sec {
