@@ -9,6 +9,7 @@ date: 2020-12-10T19:42:04+08:00
 <style>
     body {
         background-color: darkred;
+        align-items: center;
     }
 
     #browsehead {
@@ -24,17 +25,23 @@ date: 2020-12-10T19:42:04+08:00
         margin: 0px auto;
     }
 
-    .ind-prev {
+    .ind-prev-desktop {
         width: 30vw;
         float: left;
     }
-
-    .ind-prev img {
-        width: 28vw;
+    .ind-prev-desktop img {
+        width: 95%;
+    }
+    .ind-prev-desktop h4, .ind-prev-mobile h4 {
+        margin: 5px 5px 20px 5px;
     }
 
-    .ind-prev h4 {
-        margin: 5px 5px 20px 5px;
+    .ind-prev-mobile {
+        width: 90vw;
+        align-self: center;
+    }
+    .ind-prev-mobile img {
+        width: 95%;
     }
 
     tbody,
@@ -66,32 +73,32 @@ date: 2020-12-10T19:42:04+08:00
     </p>
 </div>
 
-<div id="ind-prevs">
+<div id="ind-prevs-desktop">
     <table>
         <tr>
             <td>
-                <div class="ind-prev">
+                <div class="ind-prev-desktop">
                     <h2>Rohan</h2>
                     <img src="/pics/rohan.png">
-                    <h4>Rohan, also the coder of this website, is the Swami 3's pianist. He keeps the rhythm going
+                    <p>Rohan, also the coder of this website, is the Swami 3's pianist. He keeps the rhythm going
                         with chords and some melody, as well as acting as a substitute for that missing bassist.
-                        Everyone enjoys listening to him play.</h4>
+                        Everyone enjoys listening to him play.</p>
                 </div>
             </td>
             <td>
-                <div class="ind-prev">
+                <div class="ind-prev-desktop">
                     <h2>Shaan</h2>
                     <img src="/pics/shaan.png">
-                    <h4>Shaan is the star of the Swami 3. Shining in drums and vocals, he plays probably the most
-                        important role in the band. He loves to please by expressing himself using his acting skills.</h4>
+                    <p>Shaan is the star of the Swami 3. Shining in drums and vocals, he plays probably the most
+                        important role in the band. He loves to please by expressing himself using his acting skills.</p>
                 </div>
             </td>
             <td>
-                <div id="noah" class="ind-prev">
+                <div class="ind-prev-desktop">
                     <h2>Noah</h2>
                     <img src="/pics/noah.png">
-                    <h4>Noah is the Swami 3's guitarist. He jams with those chords and the occasional solo. Nobody is
-                        ever unhappy watching Noah play with that big, wide grin on his face.</h4>
+                    <p>Noah is the Swami 3's guitarist. He jams with those chords and the occasional solo. Nobody is
+                        ever unhappy watching Noah play with that big, wide grin on his face.</p>
                 </div>
             </td>
         </tr>
@@ -110,6 +117,39 @@ date: 2020-12-10T19:42:04+08:00
             </td>
         </tr>
     </table>
+</div>
+
+<div id="ind-prevs-mobile">
+    <div class="ind-prev-mobile">
+        <h2>Rohan</h2>
+        <img src="/pics/rohan.png">
+        <p>Rohan, also the coder of this website, is the Swami 3's pianist. He keeps the rhythm going
+            with chords and some melody, as well as acting as a substitute for that missing bassist.
+            Everyone enjoys listening to him play.</p>
+        <br>
+        <a href="/rohan/" class="buttonlink">Learn More</a>
+        <a href="/rohan/#ind-song-head" class="buttonlink">View Songs</a>
+    </div>
+    <br>
+    <div class="ind-prev-mobile">
+        <h2>Shaan</h2>
+        <img src="/pics/shaan.png">
+        <p>Shaan is the star of the Swami 3. Shining in drums and vocals, he plays probably the most
+            important role in the band. He loves to please by expressing himself using his acting skills.</p>
+        <br>
+        <a href="/shaan/" class="buttonlink">Learn More</a>
+        <a href="/shaan/#ind-song-head" class="buttonlink">View Songs</a>
+    </div>
+    <br>
+    <div class="ind-prev-mobile">
+        <h2>Noah</h2>
+        <img src="/pics/noah.png">
+        <p>Noah is the Swami 3's guitarist. He jams with those chords and the occasional solo. Nobody is
+            ever unhappy watching Noah play with that big, wide grin on his face.</p>
+        <br>
+        <a href="/noah/" class="buttonlink">Learn More</a>
+        <a href="/noah/#ind-song-head" class="buttonlink">View Songs</a>
+    </div>
 </div>
 
 <br>

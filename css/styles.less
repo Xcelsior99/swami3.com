@@ -135,14 +135,18 @@
     border: 3px solid gold;
 }
 
-#ind-prevs {
-    @media @mobile {
-        display: none;
-    }
-    @media @desktop {
-        display: flex;
-    }
+#ind-prevs-desktop {
+    @media @mobile {display: none;}
+    @media @desktop {display: block;}
+    table {margin: 0px auto;}
+    tr td {padding: 5px;}
 }
+#ind-prevs-mobile {
+    @media @desktop {display: none;}
+    @media @mobile {display: flex;}
+    flex-direction: column;
+}
+.ind-prev-desktop, .ind-prev-mobile, .about {font-size: 21px;}
 
 .sec {
 	display: flex;
@@ -184,7 +188,6 @@
         margin-top: 0px;
     }
     margin-top: 0px;
-    font-size: 21px;
 }
 
 #front-about {
