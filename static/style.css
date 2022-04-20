@@ -105,13 +105,13 @@
 }
 @media (min-width: 851px) {
   #frontPic1,
-  frontPic2 {
+  #frontPic2 {
     width: 60vw;
   }
 }
 @media (max-width: 850px) {
   #frontPic1,
-  frontPic2 {
+  #frontPic2 {
     width: 90%;
   }
 }
